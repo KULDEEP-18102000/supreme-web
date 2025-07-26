@@ -65,6 +65,7 @@ videos/: Contains SVG icons for file, globe, next, vercel, and window.
 
 
 📱 Responsive Design Strategy
+
 This project is fully responsive and adapts seamlessly across various screen sizes (mobile, tablet, desktop) using Tailwind CSS utility classes.
 
 ✅ Approach:
@@ -81,6 +82,7 @@ Minimized and compressed assets via Next.js' production build.
 
 
 ♿ Accessibility Considerations
+
 Semantic HTML elements (<header>, <main>, <nav>, <footer>) used for better structure.
 
 Alt attributes for all images.
@@ -88,17 +90,20 @@ Keyboard navigable UI with focus outlines.
 Accessible form labels and ARIA roles for custom components.
 
 📦 Third-Party Libraries Used
+
 Framer Motion: for smooth animations and scroll-based transitions.
 React Hook Form + Zod: for efficient and type-safe form validation.
 TailwindCSS: for styling (based on what you used).
 
 🤔 Assumptions & Key Decisions
+
 The website will serve static content and does not require a backend.
 Chose Next.js for its static site generation and routing simplicity.
 Opted for minimal libraries to reduce bundle size and dependency complexity.
 
 
 🧱 Challenges Faced & Solutions
+
 Challenge	Solution
 Smooth video autoplay on all browsers -	Used useEffect with play() and fallback handling
 Scroll-based UI behavior - Used Framer Motion's useScroll, useMotionValueEvent hooks
@@ -106,6 +111,7 @@ Ensuring performance on low-end devices	Lazy-loaded heavy sections, reduced init
 Cross-browser scrollbar consistency	Customized scrollbar using ::-webkit-scrollbar styles
 
 🌱 Suggested Upcoming Features & Improvements
+
 Light/Dark mode toggle
 CMS integration for dynamic content (e.g. Sanity, Strapi)
 Multi-language support (i18n)
@@ -113,6 +119,7 @@ Analytics integration (Google Analytics, Vercel Analytics)
 Unit & Integration Tests using Jest + Testing Library
 
 📝 Additional Remarks
+
 Deployed on Vercel with CI/CD pipeline.
 Open to contributions, feedback, or suggestions—feel free to create an issue or PR.
 Built with ❤️ using modern frontend best practices.
