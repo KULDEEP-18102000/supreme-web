@@ -86,3 +86,8 @@ Applied breakpoint-based utilities such as:
 sm:, md:, lg:, xl: and 2xl: to control layout and styling per device width.
 
 Made use of flexbox, grid, and spacing utilities to ensure consistent layout alignment and spacing.
+
+
+⚡ Performance Optimization Techniques Employed
+Image optimization using Next.js <Image> component with lazy loading and responsive sizes.
+Minimized and compressed assets via Next.js' production build.
