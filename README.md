@@ -18,6 +18,7 @@ npm run start
 
 
 🧩 Component Architecture Overview
+
 This Next.js project follows a modular and scalable architecture based on component reusability, section separation, and clean separation of concerns:
 
 1./app
@@ -71,3 +72,17 @@ Static assets such as images and videos:
 images/: (You may have additional image assets here.)
 
 videos/: Contains SVG icons for file, globe, next, vercel, and window.
+
+
+
+📱 Responsive Design Strategy
+This project is fully responsive and adapts seamlessly across various screen sizes (mobile, tablet, desktop) using Tailwind CSS utility classes.
+
+✅ Approach:
+Utilized Tailwind’s mobile-first responsive design system.
+
+Applied breakpoint-based utilities such as:
+
+sm:, md:, lg:, xl: and 2xl: to control layout and styling per device width.
+
+Made use of flexbox, grid, and spacing utilities to ensure consistent layout alignment and spacing.
